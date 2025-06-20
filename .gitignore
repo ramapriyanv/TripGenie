@@ -1,0 +1,22 @@
+# Node (React frontend)
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+
+# Python (Flask backend)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Flask env + logs
+backend/.env
+backend/instance/
+backend/*.log
+
+# VSCode / OS files
+.vscode/
+.DS_Store
+Thumbs.db
