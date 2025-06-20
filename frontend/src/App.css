@@ -1,0 +1,86 @@
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+  --card-bg: #f5f5f5;
+  --button-bg: #007bff;
+  --button-text: #fff;
+}
+
+body.dark {
+  --bg: #121212;
+  --text: #ffffff;
+  --card-bg: #1e1e1e;
+  --button-bg: #1e88e5;
+  --button-text: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+input, select, button {
+  padding: 10px;
+  font-size: 1rem;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.tab-container {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.tab {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: var(--card-bg);
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.tab.active {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+}
+
+.chat-box {
+  background-color: var(--card-bg);
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  line-height: 1.6;
+}
+
+.spinner {
+  margin-top: 10px;
+  font-style: italic;
+}
+input[type="number"] {
+  padding: 10px;
+  font-size: 1rem;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
